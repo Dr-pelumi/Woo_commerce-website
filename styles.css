@@ -1,0 +1,30 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Poppins", system-ui;
+   list-style: none;
+   scroll-behavior: smooth;
+   text-decoration: none;
+}
+header{
+   position: fixed;
+   width: 100%;
+   /* background-color: black; */
+   top: 0;
+   right: 0;
+   z-index: 10001;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 30px 10%;
+}
+.logo img{
+   max-width: 100%;
+   width: 130px;
+   height: auto;
+}
+.navbar{
+   display: flex;
+   align-items: center;
+}
