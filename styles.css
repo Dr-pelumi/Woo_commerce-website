@@ -27,4 +27,50 @@ header{
 .navbar{
    display: flex;
    align-items: center;
+   /* background-color: bisque; */
 }
+.navbar a{
+   color: #003459;
+   font-size: 17px;
+   font-weight: 600;
+   text-transform: capitalize;
+   margin: 0px 25px;
+   padding: 2px;
+   border-bottom: 2px solid transparent;
+   transition: all .42s ease-in-out;  
+}
+.navbar a:hover{
+   border-bottom: 2px solid #003459;
+}
+.nav-btn{
+  display: flex;
+  align-items: center; 
+}
+#menu-icon{
+   font-size: 35px;
+   color: #003459;
+   z-index: 10001;
+   cursor: pointer;
+   display: none;
+  }
+  .nav-icon i{
+   color: #224f34;
+   font-size: 32px;
+   margin: 0px 15px;
+  }
+  .btn-frst a{
+   background: #003459;
+   color: white;
+   font-size: 15px;
+   font-weight: 500;
+   border: 2px solid #003459;
+   padding: 10px 15px;
+   border-radius: 30px;
+   letter-spacing: 1px;
+   text-transform: capitalize;
+   transition: all .42s;
+  }
+  .btn-frst a:hover{
+   color: #003459;
+   background-color: transparent;
+  }
