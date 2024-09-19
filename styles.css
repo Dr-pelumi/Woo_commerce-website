@@ -134,3 +134,97 @@ section {
 	background-color: transparent;
 	color: #000;
 }
+header.sticky{
+background-color: #fceed5; 
+  padding: 15px 10%;
+  box-shadow: 0px 4px 15px rgba(0 0 0 / 8%);
+  transition: all .42s;
+}
+
+.Arrivals{
+   background-color: #fceed5;
+}
+ .arriv-top h2{
+   color: #000;
+   font-size: 36px;
+   font-weight: 700;
+   margin-bottom: 80px;
+   text-transform: uppercase;
+   text-align: center;
+ }
+ .main-arriv{
+   position: relative;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+   gap: 2rem;
+
+ }
+ .arriv-img{
+   overflow: hidden;
+ }
+ .arriv-img img{
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
+  cursor: pointer;
+  transition: all;
+ }
+ .arriv-img:hover img{
+   transform: scale(1.1);
+ }
+ .arriv-text h4{
+   color: #191818;
+   font-size: 18px;
+   font-weight: 500;
+   text-transform: capitalize;
+   margin-top: 10px;
+ }
+ .arriv-text p{
+   color: #7f7f7f;
+   font-size: 16px;
+   text-transform: capitalize;
+   font-weight: 500;
+ }
+ .arriv-text{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+ .arriv-icon i{
+   font-size: 25px;
+   color: #7f7f7f;
+   transition: all 0.42s;
+ }
+ .arriv-icon i:hover{
+   transform: translateX(5px);
+ }
+ .arriv-btn{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 50px;
+ }
+ .arrb-btn{
+   display: flex;
+   color: #224f34;
+   font-size: 20px;
+   font-weight: 500;
+   text-transform: inherit;
+   border: 2px solid #224f34;
+   border-radius: 30px;
+   padding: 10px 30px 7px 30px;
+   transition: all .42s;
+ }
+ .arrb-btn i{
+   font-size: 20px;
+   padding-left: 10px;
+   transition: all 0.42s;
+ }
+ .arrb-btn:hover{
+   color: #fff;
+   background-color: #224f34;
+ }
+ .arrb-btn:hover i{
+   transform: translateX(5px);
+ }
