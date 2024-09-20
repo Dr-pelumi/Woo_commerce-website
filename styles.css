@@ -305,3 +305,78 @@ background-color: #fceed5;
  .ratting i{
 	color: #f5d426;
  }
+ .offer{
+	width: 100%;
+	height: 100%;
+	background-image: url(./image/offer-back.png);
+	background-position: center;
+	background-size: cover;
+ }
+ .main-offer{
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	gap: 2rem;
+ }
+ .offer-img img{
+	max-width: 100%;
+	width: 450px;
+	height: auto;
+ }
+ .offer-text h2{
+	color: #224f34;
+	font-size: 45px;
+	font-weight: 600;
+	text-transform: inherit;
+	margin-bottom: 20px;
+ }
+ .offer-text p{
+	max-width: 500px;
+	color: #224f34;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 30px;
+	margin-bottom: 30px;
+ }
+ .offer-days{
+	text-align: center;
+ }
+ .days-info{
+	display: inline-block;
+	margin-right: 25px;
+	background: #fceed5;
+	padding: 20px 15px 20px 20px;
+	margin-bottom: 50px;
+	cursor: pointer;
+	transition: all .42s;
+ }
+ .days-info:hover{
+	transform: translateY(-5px);
+ }
+ .days-info h5{
+	color: #000;
+	font-size: 30px;
+ }
+ .days-info h6{
+	font-size: 16px;
+	color: #000;
+	text-transform: capitalize;
+ }
+ .offer-btn{
+	text-align: center;
+ }
+ .offer-btn a{
+	display: inline-block;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 500;
+	text-transform: uppercase;
+	border: 2px solid #000;
+	background: #000;
+	padding: 10px 35px;
+	border-radius: 30px;
+	transition: all .42s;
+ }
+ .offer-btn a:hover{
+	background: transparent;
+	color: #000;
+ }
