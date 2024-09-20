@@ -228,3 +228,80 @@ background-color: #fceed5;
  .arrb-btn:hover i{
    transform: translateX(5px);
  }
+ .product{
+	background-color: #fceed5;
+ }
+ .pro-top h1{
+	color: #000;
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 40px;
+ }
+ .pro-lidt{
+	text-align: center;
+	margin-bottom: 70px;
+ }
+ .pro-lidt a{
+	color: #000;
+	font-size: 18px;
+	margin: 0px 20px;
+	font-weight: 500;
+	padding: 3px 0;
+	text-transform: uppercase;
+	border-bottom: 2px solid transparent;
+	transition: all .42s;
+ }
+ .pro-lidt #hot{
+	border-bottom: 2px solid #000; 
+ }
+ .pro-lidt a:hover{
+	border-bottom: 2px solid #000;
+ }
+ .main-pro{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+	gap: 2rem;
+ }
+ .pro-img{
+	overflow: hidden;
+ }
+ .row img{
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+	display: block;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: all .42s; 
+ }
+ .row img:hover{
+	transform: scale(1.1);
+	border-radius: 46px;
+ }
+ .pro-ratting{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+ }
+ .pro-text h4{
+	color: #000;
+	font-size: 18px;
+	text-transform: capitalize;
+	font-weight: 500;
+	margin: 10px 0px 4px 0px;
+ }
+ .pro-price{
+	color: #454545;
+	font-size: 20px;
+	font-weight: 400;
+ }
+ .ratting h6{
+	color: #454545;
+	font-size: 16px;
+	font-weight: 600;
+ }
+ .ratting i{
+	color: #f5d426;
+ }
