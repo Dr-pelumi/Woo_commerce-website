@@ -446,3 +446,17 @@ background-color: #fceed5;
 .testimon-1:hover{
 	background: #f7dba7;
 }
+
+footer{
+	padding: 80px 10%;
+}
+
+.contact{
+	background: #000;
+	height: 40%;
+}
+.main-contact{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+	gap: 1rem;
+}
