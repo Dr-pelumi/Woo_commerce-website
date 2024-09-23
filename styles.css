@@ -380,3 +380,69 @@ background-color: #fceed5;
 	background: transparent;
 	color: #000;
  }
+
+ .trending-product{
+	background: #fceed5;
+ }
+ .trend-text h2{
+	color: #000;
+	font-size: 36px;
+	font-weight: 700;
+	margin: 50px 0px 50px 0px;
+	text-align: center;
+	text-transform: uppercase;
+ }
+
+ .testimonial{
+	background: #fceed5;
+ }
+ .test-top h2{
+	color: #000;
+	font-size: 36px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 70px;
+ }
+ .main-test{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+	gap: 2rem;
+	/* background-color: #000; */
+	margin-bottom: 50px;
+ }
+.testimon-1{
+	background: #fff;
+	padding: 25px 20px;
+	border-radius: 10px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	transition: all .42s;
+	cursor: pointer;
+}
+.testimon-1 i{
+	color: #000;
+	font-size: 35px;
+	margin-left: 30px;
+}
+.testimon-1 h4{
+	color: #000;
+	font-size: 20px;
+	font-weight: 700;
+	margin: 10px 20px;
+	text-transform: capitalize;
+}
+.testimon-1 p{
+	/* background-color: #000; */
+	max-width: 450px;
+	line-height: 16px;
+	font-size: 15px;
+	font-weight: 500;
+	color: #6f6f6f;
+
+}
+#idtest{
+	background: #f7dba7;
+}
+.testimon-1:hover{
+	background: #f7dba7;
+}
